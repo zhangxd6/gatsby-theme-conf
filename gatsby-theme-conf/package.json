@@ -1,0 +1,43 @@
+{
+  "name": "gatsby-theme-conf",
+  "author": "Xiangdong Zhang <xzhang@zhresearches.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangxd6/gatsby-theme-conf"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "clean":"gatsby clean"
+  },
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^2.13.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "gatsby": "^2.13.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@mdx-js/react": "^1.0.21",
+    "gatsby-plugin-theme-ui": "^0.2.2",
+    "theme-ui": "^0.2.2"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "conference",
+    "gatsby-theme-conf"
+  ]
+}
