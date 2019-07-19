@@ -13,5 +13,14 @@ module.exports = {
   siteMetadata: {
     title: "Gatsby Theme for conference landing page",
   },
-  plugins: ["gatsby-plugin-theme-ui"],
+  plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: process.env.CONTENFUL_SPACE_ID,
+        accessToken: process.env.CONTENFUL_API_TOKEN
+      },
+    },
+    "gatsby-plugin-theme-ui"
+  ]
 }

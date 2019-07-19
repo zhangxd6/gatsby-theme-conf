@@ -1,11 +1,19 @@
 import React from "react"
-import { Styled } from "theme-ui"
-import Layout from "../components/layout"
+import {  Layout, Header, Main, Container, Styled } from "theme-ui"
 
 const PageTemplate = ({ pageContext }) => (
   <Layout>
-    <Styled.h1>{pageContext.heading}</Styled.h1>
-    <div dangerouslySetInnerHTML={{ __html: pageContext.content }} />
+    <Header>
+      <div>thisi is {pageContext.name}</div>
+      </Header>
+    <Main>
+      <Container>
+        <pre>
+           {JSON.stringify(pageContext,null,2)}
+        </pre>
+      </Container>
+
+    </Main>
   </Layout>
 )
 

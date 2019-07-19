@@ -12,7 +12,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "clean":"gatsby clean"
+    "clean": "gatsby clean"
   },
   "version": "1.0.1",
   "main": "index.js",
@@ -31,7 +31,8 @@
     "@emotion/core": "^10.0.14",
     "@mdx-js/react": "^1.0.21",
     "gatsby-plugin-theme-ui": "^0.2.2",
-    "theme-ui": "^0.2.2"
+    "theme-ui": "^0.2.2",
+    "gatsby-source-contentful": "^2.1.14"
   },
   "keywords": [
     "gatsby",
