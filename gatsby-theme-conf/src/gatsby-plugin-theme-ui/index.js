@@ -58,5 +58,8 @@ export default {
       fontSize: 5,
       lineHeight: "heading",
     },
+    ul:{
+      listStyle:"none"
+    }
   },
 }

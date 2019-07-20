@@ -57,6 +57,17 @@ exports.createPages = ({ graphql, actions, reporter }) => {
             }
           }
         }
+        slides {
+          id
+          title
+          mainTitle
+          action
+          backgroundImage {
+            fluid(maxWidth: 1200, maxHeight: 600) {
+              src
+            }
+          }
+        }
       }
     }
         

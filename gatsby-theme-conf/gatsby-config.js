@@ -14,6 +14,7 @@ module.exports = {
     title: "Gatsby Theme for conference landing page",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-contentful`,
       options: {
