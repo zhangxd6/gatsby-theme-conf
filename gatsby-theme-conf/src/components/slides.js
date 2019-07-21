@@ -7,7 +7,7 @@ export default props => {
     <div id="main-slide" className="carousel slide" data-ride="carousel">
       <ol className="carousel-indicators">
         {slides.map((e,i) => {
-          return <li key={'i-'+ e.id} data-target="main-slide" data-slide-to={i} className={i===0? 'active':''}></li>
+          return <li key={'i-'+ e.id} data-target="#main-slide" data-slide-to={i} className={i===0? 'active':''}></li>
         })}
       </ol>
       <div className ="carousel-inner">

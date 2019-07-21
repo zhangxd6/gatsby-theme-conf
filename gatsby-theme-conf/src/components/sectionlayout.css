@@ -1,0 +1,24 @@
+.sectionheader{
+  text-transform: uppercase;
+  text-align: center;
+ font-size: 36px;
+    color: #212121;
+    line-height: 52px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.sectiontitle {
+  font-size: 2rem;
+}
+.sectionsubtitle {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+.anchor{
+  margin-bottom: 60px;
+}

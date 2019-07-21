@@ -1,0 +1,76 @@
+.speakerscontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+}
+.speaker {
+  width: 30%;
+  padding: 10px;
+}
+
+.speaker .info-text {
+  position: relative;
+  bottom: 57px;
+  left: 11px;
+  text-align: left;
+  opacity: 0.8;
+  width: 80%;
+  background: #f3f4f3;
+}
+
+.speaker .info-text h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.speaker .info-text h3 a {
+  color: #212121;
+}
+
+.speaker .info-text h3 a:hover {
+  color: #e91e63;
+}
+
+.speaker .info-text p {
+  margin: 0;
+  color: #888;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.speaker .speaker-img {
+  position: relative;
+}
+.speaker .speaker-overlay {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(47, 47, 47, 0.7);
+  opacity: 0;
+  width: 100%;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: calc(100% - 50px);
+}
+
+.speaker-detail{
+  margin: 5px;;
+  text-align: center;
+}
+
+.speaker .speaker-overlay:hover{
+  opacity: 1;
+  color: #f3f4f3;
+}

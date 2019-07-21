@@ -6,7 +6,9 @@ a {
   color: #E91E63 !important;
 }
 
-
+.navbar-nav a.nav-link {
+  color: #fff;
+}
 .top-nav-collapse {
   background: #fff;
   z-index: 999999;
@@ -22,3 +24,6 @@ a {
   background: #fff !important;
 }
 
+.top-nav-collapse .navbar-nav a.nav-link {
+  color: #000;
+}

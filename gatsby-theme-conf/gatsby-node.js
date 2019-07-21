@@ -11,6 +11,8 @@ exports.createPages = ({ graphql, actions, reporter }) => {
         }
         tracks {
           id
+          name
+          room
           sessions {
             id
             title
@@ -27,6 +29,11 @@ exports.createPages = ({ graphql, actions, reporter }) => {
         sponsors {
           id
           name
+          logo{
+            fixed(width:100,height:100) {
+            src
+            }
+          }
           url
         }
         why {
@@ -52,7 +59,7 @@ exports.createPages = ({ graphql, actions, reporter }) => {
         }
         gallerys {
           image {
-            fixed {
+            fixed(width:400,height:400) {
               src
             }
           }

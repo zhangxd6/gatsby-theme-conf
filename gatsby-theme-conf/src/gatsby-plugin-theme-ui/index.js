@@ -10,8 +10,7 @@ export default {
     primary: "#639",
   },
   fonts: {
-    default:
-      '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+    default:'Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
   },
   fontSizes: [16, 18, 20, 22, 27, 36],
   lineHeights: {
@@ -19,7 +18,7 @@ export default {
     heading: "1.1",
   },
   sizes: {
-    container: 650,
+    container: 1200,
   },
   styles: {
     Layout: {
@@ -28,6 +27,7 @@ export default {
       fontFamily: "default",
       fontSize: 1,
       lineHeight: "text",
+      minHeight: 0,
     },
     Header: {
       backgroundColor: "primary",
@@ -46,20 +46,21 @@ export default {
     Main: {
       margin: "0 auto",
       maxWidth: "container",
-      width: "90vw",
+      width: "100vw",
     },
     Container: {
       padding: 0,
       paddingBottom: 3,
       paddingTop: 3,
+      maxWidth:"container"
     },
     h1: {
       color: "text",
       fontSize: 5,
       lineHeight: "heading",
     },
-    ul:{
-      listStyle:"none"
-    }
+    ul: {
+      listStyle: "none",
+    },
   },
 }

@@ -56,7 +56,7 @@ export default () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#team">
+                <a className="nav-link" href="#speakers">
                   Speakers
                 </a>
               </li>
@@ -65,18 +65,18 @@ export default () => {
                   Gallery
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#faq">
                   Faq
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="#sponsors">
                   Sponsors
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#google-map-area">
+                <a className="nav-link" href="#contactus">
                   Contact
                 </a>
               </li>
