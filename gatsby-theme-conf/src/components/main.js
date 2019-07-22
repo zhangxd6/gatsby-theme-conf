@@ -31,7 +31,7 @@ class Main extends React.Component {
     let { pageContext } = this.props
     return (
       <>
-        <Helmet title={pageContext.name}>
+        <Helmet title={pageContext.name} lang="en">
           <title>{pageContext.name}</title>
           <meta
             name="description"

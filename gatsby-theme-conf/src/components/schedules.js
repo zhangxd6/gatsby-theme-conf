@@ -21,6 +21,7 @@ export default ({ schedule }) => {
                 href={"#list-" + w.id}
                 role="tab"
                 aria-controls={w.name}
+                aria-label={w.name}
               >
                 <h4>{w.name}</h4>
                 <p>{w.room}</p>
