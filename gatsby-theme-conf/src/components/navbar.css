@@ -9,7 +9,7 @@ a {
 .navbar-nav a.nav-link {
   color: #fff;
 }
-.top-nav-collapse {
+top-nav-collapse. {
   background: #fff;
   z-index: 999999;
   top: 0px !important;
@@ -25,5 +25,14 @@ a {
 }
 
 .top-nav-collapse .navbar-nav a.nav-link {
+  color: #000;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 30px;
+}
+
+.top-nav-collapse .fa-bars{
   color: #000;
 }

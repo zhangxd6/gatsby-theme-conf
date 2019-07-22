@@ -31,10 +31,7 @@ export default () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon" />
-              <span className="icon-menu" />
-              <span className="icon-menu" />
-              <span className="icon-menu" />
+              <span className="fas fa-bars" />
             </button>
             <a href="index.html" className="navbar-brand"><i/></a>
           </div>
