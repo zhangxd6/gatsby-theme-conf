@@ -1,3 +1,5 @@
+//gatsby-node.js
+
 exports.createPages = ({ graphql, actions, reporter }) => {
   reporter.warn("make sure to load data from somewhere!")
 

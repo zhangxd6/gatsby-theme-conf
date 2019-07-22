@@ -34,6 +34,7 @@
     "gatsby-plugin-theme-ui": "^0.2.2",
     "gatsby-source-contentful": "^2.1.14",
     "react-helmet": "^5.2.1",
+    "simple-load-script": "^1.0.2",
     "theme-ui": "^0.2.2"
   },
   "keywords": [

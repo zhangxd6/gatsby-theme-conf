@@ -1,0 +1,48 @@
+.contactcontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+}
+.contactaddress{ 
+  max-width: 30%;
+  border-right: 1px solid #ddd;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactaddress h4{
+  text-transform: capitalize;
+}
+
+.contactaddress p{
+  font-size: 16;
+  line-height: 12px;
+  font-weight: 200;
+}
+.contactaddress ul {
+  list-style: none;
+  display:block;
+  padding: 0;
+
+}
+.contactaddress ul li{
+  float: left;
+  margin-left: 5px;
+}
+#contact{
+  min-width: 400px;
+  padding-left: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .contactaddress{
+    border-right: none
+  }
+
+}

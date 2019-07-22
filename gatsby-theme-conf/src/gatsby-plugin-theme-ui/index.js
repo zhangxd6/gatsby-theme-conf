@@ -54,6 +54,11 @@ export default {
       paddingTop: 3,
       maxWidth:"container"
     },
+    Footer:{
+      textAlign:'center',
+      justifyContent:'center',
+      marginBottom:4
+    },
     h1: {
       color: "text",
       fontSize: 5,
